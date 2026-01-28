@@ -1,0 +1,91 @@
+2026-01-28T13:14:47.399+07:00  INFO 73624 --- [user-api] [main] c.a.user_api.UserApiApplicationTests     : Starting UserApiApplicationTests using Java 21.0.6 with PID 73624 (started by dwisusanto in /Users/dwisusanto/Documents/user-api)
+2026-01-28T13:14:47.400+07:00  INFO 73624 --- [user-api] [main] c.a.user_api.UserApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T13:14:47.917+07:00  INFO 73624 --- [user-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-28T13:14:47.977+07:00  INFO 73624 --- [user-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2026-01-28T13:14:48.309+07:00  INFO 73624 --- [user-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-28T13:14:48.468+07:00  INFO 73624 --- [user-api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-01-28T13:14:48.482+07:00  INFO 73624 --- [user-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-28T13:14:48.541+07:00  INFO 73624 --- [user-api] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-28T13:14:48.574+07:00  INFO 73624 --- [user-api] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2026-01-28T13:14:48.600+07:00  INFO 73624 --- [user-api] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-28T13:14:48.779+07:00  INFO 73624 --- [user-api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-28T13:14:48.810+07:00  WARN 73624 --- [user-api] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-28T13:14:48.821+07:00  INFO 73624 --- [user-api] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-28T13:14:49.575+07:00  INFO 73624 --- [user-api] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-28T13:14:49.623+07:00  INFO 73624 --- [user-api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28T13:14:49.962+07:00  WARN 73624 --- [user-api] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-28T13:14:50.252+07:00  INFO 73624 --- [user-api] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-01-28T13:14:50.300+07:00  INFO 73624 --- [user-api] [main] c.a.user_api.UserApiApplicationTests     : Started UserApiApplicationTests in 3.119 seconds (process running for 3.801)
+2026-01-28T13:14:51.010+07:00  INFO 73624 --- [user-api] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.antigravity.user_api.controller.UserControllerTest]: UserControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-28T13:14:51.087+07:00  INFO 73624 --- [user-api] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.antigravity.user_api.UserApiApplication for test class com.antigravity.user_api.controller.UserControllerTest
+2026-01-28T13:14:51.202+07:00  INFO 73624 --- [user-api] [main] c.a.u.controller.UserControllerTest      : Starting UserControllerTest using Java 21.0.6 with PID 73624 (started by dwisusanto in /Users/dwisusanto/Documents/user-api)
+2026-01-28T13:14:51.203+07:00  INFO 73624 --- [user-api] [main] c.a.u.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T13:14:52.161+07:00  INFO 73624 --- [user-api] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-01-28T13:14:52.162+07:00  INFO 73624 --- [user-api] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-01-28T13:14:52.166+07:00  INFO 73624 --- [user-api] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2026-01-28T13:14:52.201+07:00  INFO 73624 --- [user-api] [main] c.a.u.controller.UserControllerTest      : Started UserControllerTest in 1.094 seconds (process running for 5.702)
+2026-01-28T13:14:52.538+07:00  WARN 73624 --- [user-api] [main] c.a.u.exception.GlobalExceptionHandler   : UserNotFoundException: User not found
+2026-01-28T13:14:52.556+07:00  WARN 73624 --- [user-api] [main] c.a.u.exception.GlobalExceptionHandler   : UserNotFoundException: User not found
+2026-01-28T13:14:52.874+07:00  INFO 73624 --- [user-api] [main] c.a.user_api.service.UserService         : Updating user with id: 99
+2026-01-28T13:14:52.889+07:00  INFO 73624 --- [user-api] [main] c.a.user_api.service.UserService         : Deleting user with id: 99
+2026-01-28T13:14:52.890+07:00  WARN 73624 --- [user-api] [main] c.a.user_api.service.UserService         : Attempt to delete non-existent user with id: 99
+2026-01-28T13:14:52.898+07:00  INFO 73624 --- [user-api] [main] c.a.user_api.service.UserService         : Fetching all users
+2026-01-28T13:14:52.906+07:00  INFO 73624 --- [user-api] [main] c.a.user_api.service.UserService         : Fetching user with id: 99
+2026-01-28T13:14:52.912+07:00  INFO 73624 --- [user-api] [main] c.a.user_api.service.UserService         : Fetching user with id: 1
+2026-01-28T13:14:52.918+07:00  INFO 73624 --- [user-api] [main] c.a.user_api.service.UserService         : Updating user with id: 1
+2026-01-28T13:14:52.919+07:00  INFO 73624 --- [user-api] [main] c.a.user_api.service.UserService         : User updated with id: 1
+2026-01-28T13:14:52.923+07:00  INFO 73624 --- [user-api] [main] c.a.user_api.service.UserService         : Creating new user: john@example.com
+2026-01-28T13:14:52.924+07:00  INFO 73624 --- [user-api] [main] c.a.user_api.service.UserService         : User created with id: 1
+2026-01-28T13:14:52.928+07:00  INFO 73624 --- [user-api] [main] c.a.user_api.service.UserService         : Deleting user with id: 1
+2026-01-28T13:14:52.928+07:00  INFO 73624 --- [user-api] [main] c.a.user_api.service.UserService         : User deleted with id: 1
+2026-01-28T13:14:52.981+07:00  INFO 73624 --- [user-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28T13:14:52.993+07:00  INFO 73624 --- [user-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-28T13:14:53.003+07:00  INFO 73624 --- [user-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-28T13:15:57.316+07:00  INFO 74099 --- [user-api] [main] c.a.user_api.UserApiApplication          : Starting UserApiApplication v0.0.1-SNAPSHOT using Java 21.0.6 with PID 74099 (/Users/dwisusanto/Documents/user-api/target/user-api-0.0.1-SNAPSHOT.jar started by dwisusanto in /Users/dwisusanto/Documents/user-api)
+2026-01-28T13:15:57.317+07:00  INFO 74099 --- [user-api] [main] c.a.user_api.UserApiApplication          : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T13:15:58.022+07:00  INFO 74099 --- [user-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-28T13:15:58.067+07:00  INFO 74099 --- [user-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2026-01-28T13:15:58.475+07:00  INFO 74099 --- [user-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-28T13:15:58.487+07:00  INFO 74099 --- [user-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T13:15:58.487+07:00  INFO 74099 --- [user-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-01-28T13:15:58.517+07:00  INFO 74099 --- [user-api] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-28T13:15:58.517+07:00  INFO 74099 --- [user-api] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1163 ms
+2026-01-28T13:15:58.641+07:00  INFO 74099 --- [user-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-28T13:15:58.920+07:00  INFO 74099 --- [user-api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-01-28T13:15:58.922+07:00  INFO 74099 --- [user-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-28T13:15:58.979+07:00  INFO 74099 --- [user-api] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-28T13:15:59.040+07:00  INFO 74099 --- [user-api] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2026-01-28T13:15:59.079+07:00  INFO 74099 --- [user-api] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-28T13:15:59.327+07:00  INFO 74099 --- [user-api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-28T13:15:59.367+07:00  WARN 74099 --- [user-api] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-28T13:15:59.380+07:00  INFO 74099 --- [user-api] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-28T13:15:59.975+07:00  INFO 74099 --- [user-api] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-28T13:16:00.009+07:00  INFO 74099 --- [user-api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28T13:16:00.236+07:00  WARN 74099 --- [user-api] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-28T13:16:00.718+07:00  INFO 74099 --- [user-api] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-01-28T13:16:00.783+07:00  INFO 74099 --- [user-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-28T13:16:00.804+07:00  INFO 74099 --- [user-api] [main] c.a.user_api.UserApiApplication          : Started UserApiApplication in 3.888 seconds (process running for 4.511)
+2026-01-28T13:16:01.338+07:00  INFO 74099 --- [user-api] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-28T13:16:01.339+07:00  INFO 74099 --- [user-api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-28T13:16:01.340+07:00  INFO 74099 --- [user-api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-28T13:16:01.446+07:00  INFO 74099 --- [user-api] [http-nio-8080-exec-1] c.a.user_api.service.UserService         : Creating new user: jar@example.com
+2026-01-28T13:16:01.518+07:00  INFO 74099 --- [user-api] [http-nio-8080-exec-1] c.a.user_api.service.UserService         : User created with id: 1
+2026-01-28T13:16:12.079+07:00  INFO 74099 --- [user-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T13:16:12.115+07:00  INFO 74099 --- [user-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-01-28T13:16:12.121+07:00  INFO 74099 --- [user-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28T13:16:12.139+07:00  INFO 74099 --- [user-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-28T13:16:12.143+07:00  INFO 74099 --- [user-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
