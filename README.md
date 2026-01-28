@@ -46,6 +46,18 @@ The application will start on `http://localhost:8080`.
 | `PUT` | `/api/users/{id}` | Update a user | `{"name": "Jane", "email": "jane@example.com"}` |
 | `DELETE` | `/api/users/{id}` | Delete a user | - |
 
+## 📚 API Documentation (Swagger)
+The API documentation is available via Swagger UI:
+- **URL:** [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+- **JSON:** [http://localhost:8080/v3/api-docs](http://localhost:8080/v3/api-docs)
+
+> **Note:** If port 8080 is in use, check the console output for the actual port (e.g., 8081).
+
+## 📝 Logging
+Application logs are written to a file named `app.log` in the root directory.
+- **Log File:** `./app.log`
+- **Configuration:** `logging.file.name=app.log` in `application.properties`
+
 ## 🧪 Running Tests
 
 To run the automated tests (Unit & Integration):
