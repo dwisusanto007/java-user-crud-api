@@ -29,6 +29,14 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+
 ### VS Code ###
 .vscode/
+
+### OS Key Files ###
+.DS_Store
+
+### Logs ###
+*.log
 app.log
+app.log*
